@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+}
+header {
+  text-align: center;
+  margin-bottom: 5%;
+}
+h1 {
+  font-size: 500%;;
+}
+section {
+  margin-bottom: 5%;
+}
+.container {
+  width: 100%;
+}
+.portfolio-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+img {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: block;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.portfolio-image:hover img{
+  opacity: 0.3;
+}
+.portfolio-image:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: black;
+  font-size: 28px;
+  padding: 16px 32px;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+}
+.footer-logo {
+  width: 5%;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+.photo {
+  float: left;
+}
+.language_logo {
+  width: 30%;
+  margin-left: 35%;
+}
+.language-image:hover img{
+  opacity: 0.3;
+}
+.language-image:hover .middle {
+  opacity: 1;
+}
+.col-sm.6 {
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+  height: auto;
+}
+.portfolio-image img {
+  width: 100%;
+}
+.langugaes-section, .col-sm-6 {
+  padding: 0;
+}
+.mySlides {
+  display:none;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #303030;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {
+  background-color: #dddddd
+}
+.button:active {
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.code-link {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #dddddd;
+  padding-top: 1%;
+}
+footer .footer-img {
+  width: 10%;
+  height: auto;
+  float: left;
+  margin-left: 45%;
+}
+
+.bottom-images {
+  width: 100%;
+}
+.languages-section .row {
+  margin-top: 10%;
+}
+.cv {
+  width: 10%;
+  height: auto;
+  background-color: #000000;
+  color:#ffffff;
+  margin-left: 45%;
+  text-align: center;
+}
+.bottom-image:hover img{
+  opacity: 0.3;
+}
+.bottom-image:hover .middle {
+  opacity: 1;
+}
+.bottom-image .text {
+  font-size: 140%;
+}
